@@ -15,7 +15,7 @@ use App\Http\Controllers\ProofingController;
 */
 
 Route::get('/', function () {
-    return view('login');
+    return redirect('/login');
 });
 
 Auth::routes();
