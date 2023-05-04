@@ -361,7 +361,7 @@ return [
                 [
                     'text' => 'Create',
                     'icon'    => 'fas fa-fw fa-pen',
-                    'url'  => '/proofings.create',
+                    'url'  => '/proofings/create',
                 ],
             ],
         ],
