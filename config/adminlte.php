@@ -63,8 +63,8 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo' => '<b>Bali</b>madein<b>Bali</b>',
+    'logo_img' => 'images/logo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
@@ -323,7 +323,7 @@ return [
             'submenu' => [
                 [
                     'text' => 'List',
-                    'url'  => '/purchasing/list',
+                    'url'  => '/purchasing',
                 ],
                 [
                     'text' => 'Create',

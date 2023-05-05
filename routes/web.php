@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SupplierController;
 use App\Http\Controllers\ProofingController;
+use App\Http\Controllers\PurchasingController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,3 +26,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/profile/username', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');
 Route::resource('suppliers', SupplierController::class);
 Route::resource('proofings', ProofingController::class);
+Route::resource('purchasings', PurchasingController::class);
