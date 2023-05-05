@@ -14,8 +14,10 @@ use App\Http\Controllers\PurchasingController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
+    return view('welcome');
+});
+Route::get('/production', function () {
     return redirect('/login');
 });
 
